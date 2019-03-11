@@ -21,32 +21,25 @@ Exporting and Saving
 ### Absolute vs Relative Paths
 ### Coordinate Reference Systems
 ## Data Navigation and Visibility 
-  Zooming and Panning
-  Bookmarks
-  Layer Order and Visibility
+### Zooming and Panning
+### Bookmarks
+### Layer Order and Visibility
 ## Layer Properties
-  Layer Attributes
-  Editing Attributes
-  Selecting by Attributes
-  Creating New Layer from Selection
+### Layer Attributes
+### Editing Attributes
+### Selecting by Attributes
+### Creating New Layer from Selection
 ## Data Styling
-  Symbology
-  Labeling
+### Symbology
+### Labeling
 ## Data Processes
-  Joining a Table
-  Spatial Join
+### Joining a Table
+### Spatial Join
 ## Exporting and Saving
-  Print Composer
-  Adding Map Elements
-  Exporting
-  Saving Project
-  Saving Data
+### Print Composer
+### Adding Map Elements
+### Exporting
+### Saving Project
+### Saving Data
 ## What's Next?
 ### Thanks - Stanford Geospatial Center
- 
-  
-  
-
-
-
-
