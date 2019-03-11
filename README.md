@@ -1,7 +1,7 @@
 # Intro to GIS for Map Production with QGIS
 
 Introduction
-QGIS UI
+User Interface
 Map Documents
 Data Navigation
 Layer Properties
@@ -11,15 +11,15 @@ Exporting and Saving
 
 
 ## Introduction
-  Resources for GIS
-  Download Workshop Data
-## QGIS User Interface
-  Basic Components
-  Tabbed Menus
-  File Browser
+### Resources for GIS
+### Download Workshop Data
+## User Interface
+### Basic Components
+### Tabbed Menus
+### File Browser
 ## Map Document
-  Absolute vs Relative Paths
-  Coordinate Reference Systems
+### Absolute vs Relative Paths
+### Coordinate Reference Systems
 ## Data Navigation and Visibility 
   Zooming and Panning
   Bookmarks
