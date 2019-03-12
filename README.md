@@ -1,4 +1,4 @@
-# Intro to GIS for Map Production with QGIS
+# Map Production in GIS with QGIS
 
 Introduction
 User Interface
