@@ -1,4 +1,4 @@
-# Intro to QGIS 3.4
+# Intro to GIS with QGIS 3.4
 
 This workshop meant to help you understand the fundamentals of GIS, and get to started with using QGIS 3.4 for map production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.** During the instruction steps additional context and descriptions will be provided.
 
