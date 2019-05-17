@@ -1,0 +1,475 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>ACCOLEDS - QGIS3 and DMTI</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/UBC.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<style>
+		.reveal .slide-number {
+  		font-size:24pt; }
+
+		.reveal .controls {
+		  color: #98b2c3; }
+
+		.reveal .progress {
+			 background: rgba(0, 0, 0, 0.2);
+			 color: #98b2c3; }
+
+		.btn {
+	 	  -webkit-border-radius: 11;
+	 	  -moz-border-radius: 11;
+	 	  border-radius: 11px;
+	 	  font-family: Arial;
+	 	  color: #ffffff;
+	 	  font-size: 20px;
+	 	  background: #2F5D7C;
+	 	  padding: 10px 20px 10px 20px;
+	 	  text-decoration: none; }
+
+			.btn:hover {
+		  background: #5E869F;
+		  text-decoration: none;	}
+
+		</style>
+
+
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+				<section>
+					<h2>A quick intro to</h2>
+					<h6>qgis and dmti spatial</h6>
+					<table style="width:100%">
+					<tr>
+						<th style="text-align: center;">
+						<img src="https://www.qgis.org/en/_images/main_logo.png" width="300px"></img>
+						</th>
+						<th style="text-align: center;">
+						<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+						</th>
+					</tr>
+					</table>
+					<h5 style="margin-top:90px;margin-bottom:50px;">Evan Thornberry | GIS Librarian | UBC Library</h5>
+				</section>
+
+				<section>
+					<h2>summary</h2>
+					<p style="margin-top:40px;"><b>PART 1:</b> intro to QGIS</p>
+					<p style="margin-top:40px;"><b>PART 2:</b> hands on with QGIS using DMTI data</p>
+					<small>*you have a handout with the directions, and I'll have screencasts showing each step*</small>
+				</section>
+
+				<section>
+					<h3>GIS = Geographic Information <span style="color:#5E869F">System</span></h3>
+					<q>Just as we use a word processor to write documents and deal with words on a computer, we can use a GIS application to deal with spatial information on a computer.</q>
+					<div style="align:left; margin-top:40px;"><small>source: <em>QGIS - A Gentle Introduction In GIS</em></small></div>
+				</section>
+
+				<section>
+					<h2>GIS in different forms</h2>
+					<p>Utilities (tasks)</p>
+					<p>Desktop (analyses)</p>
+					<p>Infrastrucure (management)</p>
+				<aside class="notes">
+
+				</aside>
+				</section>
+
+				<section>
+					<img src="https://www.qgis.org/en/_images/main_logo.png" width="300px"></img>
+					<h6>(formerly "Quantum GIS")</h6>
+					<p style="margin-top:40px;">popular desktop GIS</p>
+					<p><b>f</b>ree and <b>o</b>pen <b>s</b>ource <b>s</b>oftware (FOSS)</p>
+					<p>robust plugin repository</p>
+				<aside class="notes">
+No licenses!!!
+				</aside>
+				</section>
+
+				<section>
+					<h2>QGIS ups⇡de </h2>
+					<p style="margin-top:40px;">active development and user communities</p>
+					<p>runs on Windows, Mac, Linux, Android</p>
+					<p>logical GUI</p>
+					<p>includes GDAL, SAGA, GRASS, others</p>
+				<aside class="notes">
+					Active user community means that there's quite a bit of open educational resources to choose from. Development community is large and continue to roll out new features and fix bugs
+					Uses GDAL to read and write a huge number of data formats, so it is pretty versitile in that respect. reads over 70 vector file formats
+			</aside>
+				</section>
+
+				<section>
+					<h2>QGIS downs⇣de</h2>
+					<p style="margin-top:40px;">most recent features can be buggy</p>
+					<p>plugins lack standardization</p>
+					<p>support = Google</p>
+				<aside class="notes">
+					So many little things that we can compare between ArcMap and QGIS, and most of them are really personal preferences. Like I think that the QGIS has better tools for cartographic design, whereas ArcMap is better for geocoding. Someone might disagree. But the three big downsides that I think are pretty unmistakable, are these
+
+				</aside>
+				</section>
+
+
+
+				<section>
+					<h2>Running QGIS</h2>
+					<p>Windows, Mac, Linux, Android</p>
+					<p>installation packages ready for download</p>
+					<p>installation comes with QGIS Browser</p>
+				</section>
+
+				<section>
+					<h2>QGIS hands on</h2>
+					<p>lets take QGIS for a test drive</p>
+					<p>you use workshop handout</p>
+					<p>I'll explain the logic and provide a screencast for each step</p>
+				</section>
+
+				<section>
+					<h2>QGIS hands on</h2>
+					<h4 style="margin-top:60px;">careful not to click your GUI willy-nilly</h4>
+					<p>if you do, don't panic<p>
+					<p>I'll show you how to get back to somewhere familiar</p>
+				</section>
+
+				<section data-background-image="vid/open1.gif" data-background-size="contain" >
+					<h2>1. open the ACCOLEDS QGIS Project</h2>
+				</section>
+				<section data-background-image="vid/open1.gif" data-background-size="contain" >
+				</section>
+
+				<section data-background-image="img/interface1.jpg" data-background-size="contain">
+					<h2>QGIS Interface</h2>
+					<aside class="notes">
+						Basic interface with a project - no highlights
+					</aside>
+				</section>
+
+				<section data-background-image="img/interface2.jpg" data-background-size="contain">
+					<div style="float:right; width:50%; margin-right:80px; "><h1>Browser and Layer Panels</h1></div>
+					<aside class="notes">
+						Browser panel and layer panel
+					</aside>
+				</section>
+
+				<section data-background-image="img/interface3.jpg" data-background-size="contain">
+					<div style="float:right; width:50%; margin-right:80px; "><h1>Toolbars</h1></div>
+					<aside class="notes">
+						toolbars
+					</aside>
+				</section>
+
+				<section data-background-image="img/interface4.jpg" data-background-size="contain">
+					<div style="float:right; width:50%; margin-right:80px; "><h1>Map Canvas</h1></div>
+					<aside class="notes">
+						map canvas
+					</aside>
+				</section>
+
+				<section data-background-image="img/interface5.jpg" data-background-size="contain">
+					<div style="float:right; width:50%; margin-right:80px; "><h1>Status Bar</h1></div>
+					<aside class="notes">
+						status bar
+					</aside>
+				</section>
+
+				<section data-background-image="img/interface6.jpg" data-background-size="contain">
+					<div style="float:left; width:50%; margin-left:80px; "><h1>Side Toolbar</h1></div>
+					<aside class="notes">
+						Side toolbar - adding data
+					</aside>
+				</section>
+
+
+				<section data-background-image="img/1layer.png" data-background-size="contain">
+
+				</section>
+
+				<section>
+					<h2>zoom to layer</h2>
+					<ol>
+						<li>right-click your layer's title</li>
+						<li>select "Zoom to Layer"</li>
+					</ol>
+
+				</section>
+
+				<section>
+					<h2>Layers have many properties</h2>
+					<p>rules for labeling</p>
+					<p>styles and design</p>
+					<p>coordinate reference system definitions</p>
+					<p>metadata</p>
+					<p>etc...</p>
+				</section>
+
+				<section data-background-image="vid/properties2.gif" data-background-size="contain" >
+					<h2>2. view layer properties</h2>
+				</section>
+				<section data-background-image="vid/properties2.gif" data-background-size="contain" >
+				</section>
+
+				<section data-background-image="img/2prop.png" data-background-size="contain">
+				</section>
+
+				<section data-background-image="vid/style3.gif" data-background-size="contain" >
+					<h2>3. change the boundary width</h2>
+				</section>
+				<section data-background-image="vid/style3.gif" data-background-size="contain" >
+				</section>
+
+				<section data-background-image="vid/addldus.gif" data-background-size="contain" >
+					<h2>4. add Local Delivery Units</h2>
+				</section>
+				<section data-background-image="vid/addldus.gif" data-background-size="contain" >
+				</section>
+
+				<section>
+					<h4>Local Delivery Units courtesy of...</h4>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<p>part of DMTI's Postal Code Suite</p>
+					<p>Postal Code Suite is one of many DMTI products</p>
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<p>based on Ontario</p>
+					<p>active in the industry for over 20 years</p>
+					<p>geospatial big data and location intelligence</p>
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<h3>CanMap® Content Suite</h3>
+					<p>released quarterly</p>
+					<p>over 320 data layers covering Canada</p>
+					<p>ready to use in GIS software</p>
+					<p>one of UBC library's most used geospatial datasets</p>
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<h3>CanMap® Content Suite Examples</h3>
+					<p>gas station locations</p>
+					<p>contours</p>
+					<p>mining areas</p>
+					<p>land cover</p>
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<h3>CanMap® Content Suite</h3>
+					<p>released quarterly</p>
+					<p>over 320 data layers covering Canada</p>
+					<p>ready to use in GIS</p>
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<h3>Location Hub®</h3>
+					<p>geocode Canadian addresses</p>
+					<p>assigns postal codes to list of points</p>
+					<p>database of other information about addresses</p>
+					<p>cloud service</p>
+				</section>
+
+				</section>
+
+				<section>
+					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
+					<h3>CanMap® Postal Code Suite</h3>
+					<p>pre-processed Canadian postal codes</p>
+					<p>GIS ready</p>
+					<p>we're using a clipped section of it for LDUs</p>
+				</section>
+
+				<section>
+					<h2>Layers can also have attribute data</h2>
+
+					<p>attribute data contains values for features in a layer</p>
+					<p>attribute data can be displayed as a table</p>
+					<p>each row in the table is a map feature (LDU)</p>
+					<p>each column represents a field describing the feature</p>
+					<small style="margin-top:40px;">(we're talking about vector data right now)</small>
+				</section>
+
+				<section data-background-image="vid/viewattributedata.gif" data-background-size="contain" >
+					<h2>5. View LDU attributes</h2>
+				</section>
+				<section data-background-image="vid/viewattributedata.gif" data-background-size="contain" >
+				</section>
+
+
+				<section>
+					<h2>Attributes can be used to</h2>
+					<p>style data</p>
+					<p>symbolize data</p>
+					<p>label data</p>
+					<p>select subsets of data</p>
+					<p>filter data</p>
+					<p>perform analyses</p>
+					<p>etc...</p>
+
+				</section>
+
+				<section>
+					<h2><em>Choropleth map</em></h2>
+					<p>show a values using colors</p>
+
+				</section>
+
+				<section data-background-image="vid/choropleth.gif" data-background-size="contain" >
+					<h2>6. style your map using attribute data</h2>
+				</section>
+				<section data-background-image="vid/choropleth.gif" data-background-size="contain" >
+				</section>
+
+				<section>
+					<h2>What if you want to summarize your LDU data according to another geographic area?</h2>
+					<p>Like Dissemination Areas</p>
+				</section>
+
+				<section data-background-image="vid/addcdas.gif" data-background-size="contain" >
+					<h2>7. add DAs</h2>
+				</section>
+				<section data-background-image="vid/addcdas.gif" data-background-size="contain" >
+				</section>
+
+				<section>
+					<h2>Union</h2>
+					<p>geoprocessing technique</p>
+					<p>merge two layers into one </p>
+					<p>does not remove the boundary lines</p>
+					<p>preserves attributes</p>
+				</section>
+
+				<section>
+					<h2>Union</h2>
+					<img src="http://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/GUID-5F802619-B3DC-4D01-B58F-A2B90CD33647-web.gif" width="800px;">
+					<small>image courtesy of Esri ArcGIS Desktop Help</small>
+				</section>
+
+				<section data-background-image="vid/union.gif" data-background-size="contain" >
+					<h2>8. Union DAs and LDUs</h2>
+				</section>
+				<section data-background-image="vid/union.gif" data-background-size="contain" >
+				</section>
+
+				<section>
+					<h2>Unioned Layer</h2>
+					<p>now contains attributes for LDUs and DAs</p>
+				</section>
+
+				<section>
+					<h2>Dissolve</h2>
+					<p>another geoprocess technique</p>
+					<p>merges geometry by a common field (DAUID)</p>
+					<p>like union, part of standard QGIS geoprocessing</p>
+				</section>
+
+				<section>
+					<h2>Dissolve</h2>
+					<img src="http://desktop.arcgis.com/en/arcmap/10.3/map/working-with-layers/GUID-3544708C-C13C-4D0B-82EE-19D6408315F7-web.png" width="800px;">
+					<small>image courtesy of Esri ArcGIS Desktop Help</small>
+				</section>
+
+				<section>
+					<h4>What if we want to dissolve <em>AND</em> calculate mean rando_val?</h2>
+					<p>not standard QGIS geoprocessing</p>
+					<p>we can use a plugin for this</p>
+					<p>find plugins in the plugin repository</p>
+				</section>
+
+				<section data-background-image="vid/plugin.gif" data-background-size="contain" >
+					<h2>9. download "dissolve with statistics" plugin</h2>
+				</section>
+				<section data-background-image="vid/plugin.gif" data-background-size="contain" >
+				</section>
+
+
+				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
+					<h2>10. Dissolve LDU into DA [prepare to wait]</h2>
+				</section>
+				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
+
+				</section>
+				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
+				</section>
+
+
+
+
+				<section data-background-image="vid/finalmap.gif" data-background-size="contain" >
+					<h2>11. Style new layer by mean Rando_val</h2>
+				</section>
+				<section data-background-image="vid/finalmap.gif" data-background-size="contain" >
+				</section>
+
+				<section>
+					<h1>What next?</h1
+					<p>prepare your data for print</p>
+					<p>save your project for later</p>
+				</section>
+
+				<section>
+					<h1>Resources</h1>
+					<p>qgis.org</p>
+					<p>qgistutorials.com</p>
+					<p>anitagraser.com/</p>
+				</section>
+
+				<section>
+					<small>don't forget to download QGIS3</small>
+				</section>
+
+				<section>
+					<h1>Thanks!</h1>
+
+					<p>Evan Thornberry | GIS Librarian</p>
+					<small>@thornberry_evan</small>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				width: 1060,
+
+				slideNumber: true,
+				history: true,
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+		</script>
+	</body>
+</html>
