@@ -8,7 +8,7 @@ The result of this project will give you a choropleth map showing the number of 
 Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: :exclamation:. The .zip file will now be in your Downloads folder. Move this folder to **C:\Temp** and **extract**.
 
 ## 1. Open the QGIS project file (.qgz)
-In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **QGIS3-intro-workshop**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
+In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **intro-to-qgis-workshop-master**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
 
 ## 2. View layer properties
 In the Layers Panel, right-click the title of the **vanHoods** layer, and select **Properties**. Observe some of the layer properties and close the window.
