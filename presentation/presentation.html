@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>ACCOLEDS - QGIS3 and DMTI</title>
+		<title>Intro to GIS with QGIS3</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
 		<link rel="stylesheet" href="css/theme/UBC.css">
@@ -56,26 +56,21 @@
 			<div class="slides">
 
 				<section>
-					<h2>A quick intro to</h2>
-					<h6>qgis and dmti spatial</h6>
-					<table style="width:100%">
-					<tr>
-						<th style="text-align: center;">
+					<h2>Intro to GIS</h2>
+					<h6>with</h6>
+
+
+
 						<img src="https://www.qgis.org/en/_images/main_logo.png" width="300px"></img>
-						</th>
-						<th style="text-align: center;">
-						<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-						</th>
-					</tr>
-					</table>
+
 					<h5 style="margin-top:90px;margin-bottom:50px;">Evan Thornberry | GIS Librarian | UBC Library</h5>
 				</section>
 
 				<section>
 					<h2>summary</h2>
 					<p style="margin-top:40px;"><b>PART 1:</b> intro to QGIS</p>
-					<p style="margin-top:40px;"><b>PART 2:</b> hands on with QGIS using DMTI data</p>
-					<small>*you have a handout with the directions, and I'll have screencasts showing each step*</small>
+					<p style="margin-top:40px;"><b>PART 2:</b> hands on - we'll make a choropleth map on vancouver's Doug Fir street trees.</p>
+					<small>*your directions are available at github.com/ect123/intro-to-qgis-workshop*</small>
 				</section>
 
 				<section>
@@ -141,7 +136,8 @@ No licenses!!!
 					<h2>QGIS hands on</h2>
 					<p>lets take QGIS for a test drive</p>
 					<p>you use workshop handout</p>
-					<p>I'll explain the logic and provide a screencast for each step</p>
+					<p>I'll explain the logic and provide a context for each step</p>
+					<p>ask questions!</p>
 				</section>
 
 				<section>
@@ -151,56 +147,54 @@ No licenses!!!
 					<p>I'll show you how to get back to somewhere familiar</p>
 				</section>
 
-				<section data-background-image="vid/open1.gif" data-background-size="contain" >
-					<h2>1. open the ACCOLEDS QGIS Project</h2>
+				<section >
+					<h2>0. start qgis and download the workshop data</h2>
+
 				</section>
-				<section data-background-image="vid/open1.gif" data-background-size="contain" >
+				<section >
+					<h2>1. open the qgis project file</h2>
+
 				</section>
 
-				<section data-background-image="img/interface1.jpg" data-background-size="contain">
+
+				<section data-background-image="img/gui-1.jpg" data-background-size="contain">
 					<h2>QGIS Interface</h2>
 					<aside class="notes">
 						Basic interface with a project - no highlights
 					</aside>
 				</section>
 
-				<section data-background-image="img/interface2.jpg" data-background-size="contain">
+				<section data-background-image="img/gui-2.jpg" data-background-size="contain">
 					<div style="float:right; width:50%; margin-right:80px; "><h1>Browser and Layer Panels</h1></div>
 					<aside class="notes">
 						Browser panel and layer panel
 					</aside>
 				</section>
 
-				<section data-background-image="img/interface3.jpg" data-background-size="contain">
+				<section data-background-image="img/gui-3.jpg" data-background-size="contain">
 					<div style="float:right; width:50%; margin-right:80px; "><h1>Toolbars</h1></div>
 					<aside class="notes">
 						toolbars
 					</aside>
 				</section>
 
-				<section data-background-image="img/interface4.jpg" data-background-size="contain">
-					<div style="float:right; width:50%; margin-right:80px; "><h1>Map Canvas</h1></div>
+				<section data-background-image="img/gui-4.jpg" data-background-size="contain">
+					<div style="float:right; width:50%; margin-right:80px; "><h1>Map View</h1></div>
 					<aside class="notes">
 						map canvas
 					</aside>
 				</section>
 
-				<section data-background-image="img/interface5.jpg" data-background-size="contain">
+				<section data-background-image="img/gui-5.jpg" data-background-size="contain">
 					<div style="float:right; width:50%; margin-right:80px; "><h1>Status Bar</h1></div>
 					<aside class="notes">
 						status bar
 					</aside>
 				</section>
 
-				<section data-background-image="img/interface6.jpg" data-background-size="contain">
-					<div style="float:left; width:50%; margin-left:80px; "><h1>Side Toolbar</h1></div>
-					<aside class="notes">
-						Side toolbar - adding data
-					</aside>
-				</section>
 
 
-				<section data-background-image="img/1layer.png" data-background-size="contain">
+				<section data-background-image="img/gui-6.jpg" data-background-size="contain">
 
 				</section>
 
@@ -222,85 +216,12 @@ No licenses!!!
 					<p>etc...</p>
 				</section>
 
-				<section data-background-image="vid/properties2.gif" data-background-size="contain" >
+				<section>
 					<h2>2. view layer properties</h2>
 				</section>
-				<section data-background-image="vid/properties2.gif" data-background-size="contain" >
+				<section data-background-image="img/lyrprop.jpg" data-background-size="contain" >
 				</section>
 
-				<section data-background-image="img/2prop.png" data-background-size="contain">
-				</section>
-
-				<section data-background-image="vid/style3.gif" data-background-size="contain" >
-					<h2>3. change the boundary width</h2>
-				</section>
-				<section data-background-image="vid/style3.gif" data-background-size="contain" >
-				</section>
-
-				<section data-background-image="vid/addldus.gif" data-background-size="contain" >
-					<h2>4. add Local Delivery Units</h2>
-				</section>
-				<section data-background-image="vid/addldus.gif" data-background-size="contain" >
-				</section>
-
-				<section>
-					<h4>Local Delivery Units courtesy of...</h4>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<p>part of DMTI's Postal Code Suite</p>
-					<p>Postal Code Suite is one of many DMTI products</p>
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<p>based on Ontario</p>
-					<p>active in the industry for over 20 years</p>
-					<p>geospatial big data and location intelligence</p>
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<h3>CanMap® Content Suite</h3>
-					<p>released quarterly</p>
-					<p>over 320 data layers covering Canada</p>
-					<p>ready to use in GIS software</p>
-					<p>one of UBC library's most used geospatial datasets</p>
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<h3>CanMap® Content Suite Examples</h3>
-					<p>gas station locations</p>
-					<p>contours</p>
-					<p>mining areas</p>
-					<p>land cover</p>
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<h3>CanMap® Content Suite</h3>
-					<p>released quarterly</p>
-					<p>over 320 data layers covering Canada</p>
-					<p>ready to use in GIS</p>
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<h3>Location Hub®</h3>
-					<p>geocode Canadian addresses</p>
-					<p>assigns postal codes to list of points</p>
-					<p>database of other information about addresses</p>
-					<p>cloud service</p>
-				</section>
-
-				</section>
-
-				<section>
-					<img src="https://developerhub.dmtispatial.com/wp-content/themes/dmti/build/images/dmti_logo.png" width="450px" ></img>
-					<h3>CanMap® Postal Code Suite</h3>
-					<p>pre-processed Canadian postal codes</p>
-					<p>GIS ready</p>
-					<p>we're using a clipped section of it for LDUs</p>
-				</section>
 
 				<section>
 					<h2>Layers can also have attribute data</h2>
@@ -309,14 +230,13 @@ No licenses!!!
 					<p>attribute data can be displayed as a table</p>
 					<p>each row in the table is a map feature (LDU)</p>
 					<p>each column represents a field describing the feature</p>
-					<small style="margin-top:40px;">(we're talking about vector data right now)</small>
+
 				</section>
 
-				<section data-background-image="vid/viewattributedata.gif" data-background-size="contain" >
-					<h2>5. View LDU attributes</h2>
+				<section>
+					<h2>5. View the Trees layer attributes</h2>
 				</section>
-				<section data-background-image="vid/viewattributedata.gif" data-background-size="contain" >
-				</section>
+
 
 
 				<section>
@@ -331,110 +251,18 @@ No licenses!!!
 
 				</section>
 
-				<section>
-					<h2><em>Choropleth map</em></h2>
-					<p>show a values using colors</p>
-
-				</section>
-
-				<section data-background-image="vid/choropleth.gif" data-background-size="contain" >
-					<h2>6. style your map using attribute data</h2>
-				</section>
-				<section data-background-image="vid/choropleth.gif" data-background-size="contain" >
-				</section>
 
 				<section>
-					<h2>What if you want to summarize your LDU data according to another geographic area?</h2>
-					<p>Like Dissemination Areas</p>
-				</section>
-
-				<section data-background-image="vid/addcdas.gif" data-background-size="contain" >
-					<h2>7. add DAs</h2>
-				</section>
-				<section data-background-image="vid/addcdas.gif" data-background-size="contain" >
-				</section>
-
-				<section>
-					<h2>Union</h2>
-					<p>geoprocessing technique</p>
-					<p>merge two layers into one </p>
-					<p>does not remove the boundary lines</p>
-					<p>preserves attributes</p>
-				</section>
-
-				<section>
-					<h2>Union</h2>
-					<img src="http://desktop.arcgis.com/en/arcmap/10.3/tools/analysis-toolbox/GUID-5F802619-B3DC-4D01-B58F-A2B90CD33647-web.gif" width="800px;">
-					<small>image courtesy of Esri ArcGIS Desktop Help</small>
-				</section>
-
-				<section data-background-image="vid/union.gif" data-background-size="contain" >
-					<h2>8. Union DAs and LDUs</h2>
-				</section>
-				<section data-background-image="vid/union.gif" data-background-size="contain" >
-				</section>
-
-				<section>
-					<h2>Unioned Layer</h2>
-					<p>now contains attributes for LDUs and DAs</p>
-				</section>
-
-				<section>
-					<h2>Dissolve</h2>
-					<p>another geoprocess technique</p>
-					<p>merges geometry by a common field (DAUID)</p>
-					<p>like union, part of standard QGIS geoprocessing</p>
-				</section>
-
-				<section>
-					<h2>Dissolve</h2>
-					<img src="http://desktop.arcgis.com/en/arcmap/10.3/map/working-with-layers/GUID-3544708C-C13C-4D0B-82EE-19D6408315F7-web.png" width="800px;">
-					<small>image courtesy of Esri ArcGIS Desktop Help</small>
-				</section>
-
-				<section>
-					<h4>What if we want to dissolve <em>AND</em> calculate mean rando_val?</h2>
-					<p>not standard QGIS geoprocessing</p>
-					<p>we can use a plugin for this</p>
-					<p>find plugins in the plugin repository</p>
-				</section>
-
-				<section data-background-image="vid/plugin.gif" data-background-size="contain" >
-					<h2>9. download "dissolve with statistics" plugin</h2>
-				</section>
-				<section data-background-image="vid/plugin.gif" data-background-size="contain" >
-				</section>
-
-
-				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
-					<h2>10. Dissolve LDU into DA [prepare to wait]</h2>
-				</section>
-				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
+					
 
 				</section>
-				<section data-background-image="vid/dissolve.gif" data-background-size="contain" >
-				</section>
 
-
-
-
-				<section data-background-image="vid/finalmap.gif" data-background-size="contain" >
-					<h2>11. Style new layer by mean Rando_val</h2>
-				</section>
-				<section data-background-image="vid/finalmap.gif" data-background-size="contain" >
-				</section>
-
-				<section>
-					<h1>What next?</h1
-					<p>prepare your data for print</p>
-					<p>save your project for later</p>
-				</section>
 
 				<section>
 					<h1>Resources</h1>
 					<p>qgis.org</p>
 					<p>qgistutorials.com</p>
-					<p>anitagraser.com/</p>
+					<p>anitagraser.com</p>
 				</section>
 
 				<section>
