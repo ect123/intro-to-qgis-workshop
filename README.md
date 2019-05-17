@@ -1,14 +1,14 @@
 # Intro to GIS with QGIS 3.4
 
-This workshop meant to help you understand the fundamentals of GIS, and get to started with using QGIS 3.4 for map production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.** During the instruction steps additional context and descriptions will be provided.
+This workshop meant to help you understand the fundamentals of GIS, and get to started with using QGIS 3.4 for map production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.** 
 
-The result of this project will give you a choropleth map showing the number of Douglas Firs in each of Vancouver's neighbourhoods. We will compose and export this map for print.
+The result of this project will be a choropleth map showing the number of Douglas Firs lining the streets in each of Vancouver's neighbourhoods. We will compose and export this map for print.
 
 ## 0. Start QGIS and get the workshop data and instructions.
-Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: :exclamation:. The .zip file will now be in your Downloads folder. Move this folder to **C:\Temp** and **extract**.
+Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: **github.com/ect123/intro-to-qgis-workshop**. SAVE the file. The .zip file will now be in your Downloads folder. Move this folder to **C:\Temp** and **extract**.
 
 ## 1. Open the QGIS project file (.qgz)
-In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **intro-to-qgis-workshop-master**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
+In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **QGIS3-intro-workshop**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
 
 ## 2. View layer properties
 In the Layers Panel, right-click the title of the **vanHoods** layer, and select **Properties**. Observe some of the layer properties and close the window.
@@ -29,7 +29,7 @@ In middle of the window, expand the option for **Fields and Values**, and double
 
 Click the **=** button above the expression builder.
 
-With COMMN_NAME selected, click the **All Unique** button. This displays all t3 unique values in the COMMN_NAME field. Double-click **DOUGLAS FIR**, then click the **Select features** button at the bottom right.
+With COMMN_NAME selected, click the **All Unique** button. This displays all the unique values in the COMMN_NAME field. Double-click **DOUGLAS FIR**, then click the **Select features** button at the bottom right.
 
 Close the expression builder window and close the attribute table. *You should now see some trees selected on your map - they'll be yellow. These are the Douglas Fir trees*.
 
@@ -52,9 +52,9 @@ In the search, type "count points in polygon" and double-click the result.
 **Points:** vanDougFirs (your input points layer)   
 **Count field name:** DougFirs (the name of the attribute that will have Doug Fir counts)
 
-Click **Run**. *You will now have a new layer called **Count**. Take a look at the attribute table for this new layer.
+Click **Run**, then **Close** when the process has finished. *You will now have a new layer called **Count***. Take a look at the attribute table for this new layer.
 
-Save this layer to your data folder by right-clicking and selecting **Save Features As..**
+Save this layer to your data folder by right-clicking and selecting **Export - Save Features As..**
 
 **Format:** Esri Shapefile    
 **File name:** navigate to the location of your project's data and save the file as **vanHoodsCount**.
@@ -68,8 +68,8 @@ Right-click your **vanHoodsCount** layer and select **Layer Properties**, then c
 At the very top, click **Single Symbol** and change to **Graduated**. This will allow you to display graduated colours representing classes of attribute values.
 
 **Column:** DougFirs    
-**Color Ramp:** pick a color ramp that looks like it would represent the prevalence of Douglas Firs.    
-**Legend Format:** Precision 0, Trim       
+**Legend Format:** Precision 0, Trim   
+**Color Ramp:** pick a color ramp that looks like it would represent the prevalence of Douglas Firs.        
 **Mode:** Natural Breaks (Jenks)    
 **Classes:** 5    
 
@@ -85,7 +85,7 @@ Right-click your vanHoodsCount layer, select **Layer Properties**, and click the
 Click **Apply** to see your changes, and make any stylistic adjustments. Click **ok** when done.
 
 ## 11. Compose your map for print.
-Select the **New Print Layout** button at in the :exclamation: menu, and name the layout **Doug Fir Map**.
+Select the **New Print Layout** button at in the Toolbar, and name the layout **Doug Fir Map**.
 
 Right-click on the resulting page and select **Page Properties**. Change the layout to your desired dimension.
 
