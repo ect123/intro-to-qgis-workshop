@@ -96,9 +96,14 @@ You'll need to add context to your map using some cartographic elements. Using t
 
 Using the **Add scale bar** button, add a scale bar to your map.
 
-Using the **Add arrow** button, hold **SHIFT** on your keyboard, click the bottom then top of your arrow, then right-click. Make sure that your start and end markers are correct in your arrow item properties.
-
 Using the **Add title** button, add a title **Vancouver's Douglas Firs**.
+
+### North Arrow
+Using the **Add picture** button, select the Arrow folder, then pick whichever arrow you would like. (Alternately, select a custom arrow or any other image).
+
+Then, select the image from the list of items added to the map if it is not already selected.
+
+Under item properties, scroll down until you see Image Rotation. Choose **Sync with map**, then select the map you'd like to sync with. For type of alignment, select **Grid or Magnetic north**.
 
 ## 13. Export your map for print.
 In the Print Layout Menu, Select the option to **Export as Image**. Save your file as a .jpeg image in your project folder. Now you have a static image of your map.
