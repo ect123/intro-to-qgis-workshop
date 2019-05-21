@@ -1,11 +1,11 @@
 # Intro to GIS with QGIS 3.4
 
-This workshop meant to help you understand the fundamentals of GIS, and get to started with using QGIS 3.4 for map production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.** 
+This workshop meant to help you understand the fundamentals of GIS, and get to started with using QGIS 3.4 for map production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.**
 
 The result of this project will be a choropleth map showing the number of Douglas Firs lining the streets in each of Vancouver's neighbourhoods. We will compose and export this map for print.
 
 ## 0. Start QGIS and get the workshop data and instructions.
-Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: **github.com/ect123/intro-to-qgis-workshop**. SAVE the file. The .zip file will now be in your Downloads folder. Move this folder to **C:\Temp** and **extract**.
+Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: **github.com/ect123/intro-to-qgis-workshop**. SAVE the file. The .zip file will now be in your Downloads folder. Move this folder to a locations on your hard drive or flash drive and **extract**. We will use C:\Temp for this workshop.
 
 ## 1. Open the QGIS project file (.qgz)
 In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **QGIS3-intro-workshop**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
@@ -103,8 +103,7 @@ Using the **Add title** button, add a title **Vancouver's Douglas Firs**.
 ## 13. Export your map for print.
 In the Print Layout Menu, Select the option to **Export as Image**. Save your file as a .jpeg image in your project folder. Now you have a static image of your map.
 
-Close the print layout menu. 
+Close the print layout menu.
 
 ## 14. Save your project for later use.
-In the main menu, select **Project - Save**. 
-
+In the main menu, select **Project - Save**.
