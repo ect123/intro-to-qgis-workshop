@@ -1,6 +1,6 @@
 # Intro to GIS with QGIS 3.4
 
-<p align="center">
+<p align="left">
   <a href="#introduction">Introduction</a>&nbsp;|
   <a href="#gis-in-context">GIS in Context</a>&nbsp;|
   <a href="#qgis">QGIS</a>&nbsp;|
