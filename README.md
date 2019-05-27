@@ -4,7 +4,7 @@
   <a href="#introduction">Introduction</a>&nbsp;|
 </p>
 
-## INTRODUCTION
+
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **QGIS 3** exploring and analyzing spatial data. It is also meant to help you understand how to get started composing a map document for print production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.**
 
 The result of this project will be a choropleth map showing the number of Douglas Firs lining the streets in each of Vancouver's neighbourhoods. We will compose and export this map for print.
@@ -17,11 +17,62 @@ The result of this project will be a choropleth map showing the number of Dougla
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
 ---
+
+## GIS IN CONTEXT
+
+In this case, GIS is an abbreviation for for Geographic Information System. A nice description of GIS that provides a bit of relevancy comes from QGIS's [*A Gentle Introduction to GIS*](https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/introducing_gis.html):   
+
+  >*Just as we use a word processor to write documents and deal with words on a computer, we can use a GIS application to deal with spatial information on a computer*>
+
+With that in mind, there are 3 main forms of GISs:
+1. **Utilities and Services (tasks)** - Scripts and/or programming libraries that manipulate spatial data in specific ways.
+2. **Desktop (analyses)** - Software that provides a suite of tools for processing and spatially analyzing data.
+3. **Infrastructure (management)** - Server and web resources to meant manage, curate, and disseminate collections of spatial data.
+
+---
+### QGIS
+QGIS is a popular desktop GIS software, and considered a **f**ree and **o**pen **s**ource **s**oftware **(FOSS)** with a very active development community. According to [QGIS's development roadmap](https://www.qgis.org/en/site/getinvolved/development/roadmap.html), new versions are planned for release as far as 2 years into the future. For this workshop we are using QGIS 3.4, the most recent long term release.
+
+##### QGIS UPS⇡DE
+- Active development and user communities
+- Runs on Windows, Mac, Linux, Android
+- Logical graphical user interface (GUI)
+- Robust plugin repository for extended functionality
+
+##### QGIS DOWNS⇣DE
+- Most recent features can be buggy
+- Plugins lack standardized documentation
+- Support = Google
+
+##### RUNNING QGIS
+QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site/forusers/download.html). In most cases, you'll want to download and install the **Long term release** instead of the latest release. This will give you most of the functionality you'll need, without encountering the software bugs of newly released versions.
+
+#### QGIS GUI
+
+![The QGIS GUI][gui]
+
+**Toolbars** - Toolbars    
+**Browser and Layers Panel** - Toolbars     
+**Status Bar** - Toolbars   
+**Map Canvas of Map View** - Call it either one.     
+
+
+
+
+
+
+---
+## HANDS ON
+
+Let's start the hands on portion of this workshop!
+
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download the data and files from this GitHub repository. To do this,
 
 
-1. In the workshop's GitHub Repository ([github.com/ect123/intro-to-qgis-workshop](https://github.com/ect123/intro-to-qgis-workshop)), click the green **Clone or download** button, and choose **DOWNLOAD ZIP** from the options.
+1. In the workshop's GitHub Repository ([github.com/ect123/intro-to-qgis-workshop](https://github.com/ect123/intro-to-qgis-workshop)), click the green **Clone or download** button, and choose **Download ZIP** from the options.   
+
+![Download the .zip file][download]
 2. Save this repository (.**zip**) to your Desktop.
 3. Right-click on the .zip file you just downloaded and select **Extract All**...
 4. Accept all defaults to extract the file.    
@@ -32,9 +83,7 @@ Open the new **intro-to-qgis-workshop-master** folder. This is your project fold
 - **presentation** subfolder: where the presentation to this workshop is stored
 - **README.md**: a Markdown file containing these instructions
 - **vanTreeMap.qgz**: a QGIS project file containing the workshop's maps and data
-
-### 0. Start QGIS and get the workshop data and instructions.
-
+---
 
 ### 1. Open the QGIS project file (.qgz)
 If you haven't already, Open QGIS 3.4.0 (with GRASS). In the Browser Panel, navigate to your Desktop, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see the **vanTreeMap** project file. Double-click that file to open the project.
@@ -145,7 +194,8 @@ In the main menu, select **Project - Save**.
 
 
 
-![Download the .zip file][download]
 
 
-[download]: /img/download.png "Download the .zip file."   
+
+[download]: /img/download.png "Download the .zip file."
+[gui]: /img/gui-1.png "QGIS3's User Interface"  
