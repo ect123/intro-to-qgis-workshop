@@ -16,18 +16,18 @@ The result of this project will be a choropleth map showing the number of Dougla
 - UBC's GIS email list (participate or lurk!): [UBC GIS ListServ](https://lists.ubc.ca/scripts/wa.exe?SUBED1=GIS-LIST&A=1)  
 - UBC's GIS Slack (create your own channel or lurk!): [ubcgis.slack.com](https://ubcgis.slack.com/)
 - Evan Thornberry, GIS Librarian @ UBC Library: evan.thornberry AT ubc.ca
----
+
 
 ## GIS IN CONTEXT
 
 In this case, GIS is an abbreviation for for Geographic Information System. A nice description of GIS that provides a bit of relevancy comes from QGIS's [*A Gentle Introduction to GIS*](https://docs.qgis.org/3.4/en/docs/gentle_gis_introduction/introducing_gis.html):   
 
-  >*Just as we use a word processor to write documents and deal with words on a computer, we can use a GIS application to deal with spatial information on a computer*>
+  >*Just as we use a word processor to write documents and deal with words on a computer, we can use a GIS application to deal with spatial information on a computer*
 
 With that in mind, there are 3 main forms of GISs:
-1. **Utilities and Services (tasks)** - Scripts and/or programming libraries that manipulate spatial data in specific ways.
+1. **Utilities and Services (tasks)** - Scripts and programming libraries that manipulate spatial data in specific ways.
 2. **Desktop (analyses)** - Software that provides a suite of tools for processing and spatially analyzing data.
-3. **Infrastructure (management)** - Server and web resources to meant manage, curate, and disseminate collections of spatial data.
+3. **Infrastructure (management)** - Server and web resources to meant manage, curate, and distribute collections of spatial data.
 
 ---
 ### QGIS
@@ -61,7 +61,7 @@ QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site
 
 
 
----
+
 ## HANDS ON
 
 Let's start the hands on portion of this workshop!
