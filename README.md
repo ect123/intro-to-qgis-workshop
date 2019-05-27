@@ -2,8 +2,13 @@
 
 <p align="center">
   <a href="#introduction">Introduction</a>&nbsp;|
+  <a href="#gis-in-context">GIS in Context</a>&nbsp;|
+  <a href="#qgis">QGIS</a>&nbsp;|
+  <a href="#hands-on">Hands On</a>&nbsp;
 </p>
 
+
+</p>
 
 This is an introductory workshop focusing on the fundamental concepts and skills needed to begin using **QGIS 3** exploring and analyzing spatial data. It is also meant to help you understand how to get started composing a map document for print production. **The instructions below will follow a brief presentation overviewing the QGIS 3 and it's user interface.**
 
@@ -51,10 +56,10 @@ QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site
 
 ![The QGIS GUI][gui]
 
-**Toolbars** - Toolbars    
-**Browser and Layers Panel** - Toolbars     
-**Status Bar** - Toolbars   
-**Map Canvas of Map View** - Call it either one.     
+**Toolbars** - Toolbars are where you will find the most useful geoprocessing, editing, navigation, and other tools. You can customize this area of your GUI to fit your needs.    
+**Browser and Layers Panel** - The browser panel lets you easily navigate your file system for data and project files. Your layers panel displays your project's data layers and provides access to configuration settings.    
+**Status Bar** - The status bar displays current information about the map canvas, and allows you to make adjustments in the map's scale and rotation.    
+**Map Canvas of Map View** - Call it either one. This is where the map is displayed as layers are loaded. You can zoom/pan the map canvas as well as select features and other operations.     
 
 
 
@@ -79,7 +84,7 @@ To get started with this workshop, you'll need to first download the data and fi
 4. Accept all defaults to extract the file.    
 
 Open the new **intro-to-qgis-workshop-master** folder. This is your project folder which contains the items:
-- **data** subfolder: where your project data is stored
+- **data** subfolder: where your project data is stored. All of these files are derived from data found from the [City of Vancouver's Open Data Catalogue](https://vancouver.ca/your-government/open-data-catalogue.aspx).
 - **img** subfolder: where instructional images are stored
 - **presentation** subfolder: where the presentation to this workshop is stored
 - **README.md**: a Markdown file containing these instructions
