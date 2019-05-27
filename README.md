@@ -72,7 +72,8 @@ To get started with this workshop, you'll need to first download the data and fi
 
 1. In the workshop's GitHub Repository ([github.com/ect123/intro-to-qgis-workshop](https://github.com/ect123/intro-to-qgis-workshop)), click the green **Clone or download** button, and choose **Download ZIP** from the options.   
 
-![Download the .zip file][download]
+![Download the .zip file][download]    
+
 2. Save this repository (.**zip**) to your Desktop.
 3. Right-click on the .zip file you just downloaded and select **Extract All**...
 4. Accept all defaults to extract the file.    
