@@ -93,19 +93,29 @@ Open the new **intro-to-qgis-workshop-master** folder. This is your project fold
 
 ### 1. Open the QGIS project file (.qgz)
 If you haven't already, Open QGIS 3.4.0 (with GRASS). In the Browser Panel, navigate to your Desktop, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see the **vanTreeMap** project file. Double-click that file to open the project.
+
 ---
+
 ### 2. View layer properties
 In the Layers Panel, right-click the title of the **vanHoods** layer, and select **Properties**. Observe some of the layer properties and close the window.
+
 ---
+
 ### 3. Change the shoreline boundary width and colour
 In the Layers Panel, right-click on the title of the **vanShoreline** layer and select **Layer Properties**. In Layer Properties, select the tab for **Symbology**, and change the line width to **1**. Next, change the colour of the line to **blue**. *You should see a slight change in the width of the shoreline and your line should now be blue*.
+
 ---
+
 ### 4. Add the tree data
 Click on the **Open Data Source Manager** button and select the **Vector** tab. For the vector dataset's source, navigate to your C:\Temp\intro-to-qgis-workshop-master\data folder and select the file named **vanBigTrees.geojson**. Click add, then close. *You should see a new layer named **vanBigTrees** in your Layers Panel.*
+
 ---
+
 ### 5. Examine the attributes in your trees layer.
 In the Layers Panel, right-click the title for the trees layer, and select **Open Attribute Table**. *You should see your attribute table*. Note that there are several attributes (columns) that describe each feature (rows) in this dataset.
+
 ---
+
 ### 6. Select only the Douglas Fir trees.
 With your attribute table open, select the **Select features using an expression** button. We will use this tool to query and select only features that have a common name value of "Douglas Fir".
 
@@ -116,7 +126,9 @@ Click the **=** button above the expression builder.
 With COMMN_NAME selected, click the **All Unique** button. This displays all the unique values in the COMMN_NAME field. Double-click **DOUGLAS FIR**, then click the **Select features** button at the bottom right.
 
 Close the expression builder window and close the attribute table. *You should now see some trees selected on your map - they'll be yellow. These are the Douglas Fir trees*.
+
 ---
+
 ### 7. Create a new layer from your Douglas Fir tree selection.
 Right-click your **vanBigTrees** layer in the Layers Panel, and select **Export - Save Selected Features As..**.
 
@@ -126,7 +138,9 @@ Right-click your **vanBigTrees** layer in the Layers Panel, and select **Export 
 Notice that the option to save only selected features is enabled. Keep the rest of the default settings and click **ok**. You will now see your new layer appear on your map.
 
 In your Layers Panel, deselect the **vanBigTrees** layer to remove it from the display.
+
 ---
+
 ### 8. Count the number of Douglas Fir trees in each neighbourhood.
 In the Main Menu select **View - Panels - Processing Toolbox**. This is where you can find a large number of analytical and geoprocessing tools.
 
@@ -142,7 +156,9 @@ Save this layer to your data folder by right-clicking and selecting **Export - S
 
 **Format:** Esri Shapefile    
 **File name:** navigate to the location of your project's data and save the file as **vanHoodsCount**.
+
 ---
+
 ### 9. Create a choropleth map showing the number of Douglas Firs in each neighbourhood.
 
 In your layers panel, remove everything except your **vanHoodsCount** and **vanShoreline** layers.
@@ -158,7 +174,9 @@ At the very top, click **Single Symbol** and change to **Graduated**. This will 
 **Classes:** 5    
 
 Click **ok** and close the window.
+
 ---
+
 ### 10. Label your neighbourhoods.
 Right-click your vanHoodsCount layer, select **Layer Properties**, and click the **Labels** tab. Change **No Labels** to **Single Layers.**
 
@@ -167,14 +185,18 @@ Right-click your vanHoodsCount layer, select **Layer Properties**, and click the
 **Placement:** Horizontal
 
 Click **Apply** to see your changes, and make any stylistic adjustments. Click **ok** when done.
+
 ---
+
 ### 11. Compose your map for print.
 Select the **New Print Layout** button at in the Toolbar, and name the layout **Doug Fir Map**.
 
 Right-click on the resulting page and select **Page Properties**. Change the layout to your desired dimension.
 
 Using the **Add new map** button, add a new map to your layout. Drag the map to cover the entire layout. Use the **Move item content** button to fine tune your map's placement.
+
 ---
+
 ### 12. Add a legend, scale bar, north arrow, and title.
 You'll need to add context to your map using some cartographic elements. Using the **Add legend** button, click and drag a box in the area you would like to place the legend. Right-click your legend and select **Item Properties**. Double-click your layer names and enter more relevant titles.
 
@@ -188,12 +210,16 @@ Using the **Add picture** button, select the Arrow folder, then pick whichever a
 Then, select the image from the list of items added to the map if it is not already selected.
 
 Under item properties, scroll down until you see Image Rotation. Choose **Sync with map**, then select the map you'd like to sync with. For type of alignment, select **Grid or Magnetic north**.
+
 ---
+
 ### 13. Export your map for print.
 In the Print Layout Menu, Select the option to **Export as Image**. Save your file as a .jpeg image in your project folder. Now you have a static image of your map.
 
 Close the print layout menu.
+
 ---
+
 ### 14. Save your project for later use.
 In the main menu, select **Project - Save**.
 
