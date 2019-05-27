@@ -20,26 +20,24 @@ The result of this project will be a choropleth map showing the number of Dougla
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download the data and files from this GitHub repository. To do this,
 
-![Download the .zip file][download]
 
-[download]: /img/download.png "Download the .zip file."   
+1. In the workshop's GitHub Repository ([github.com/ect123/intro-to-qgis-workshop](https://github.com/ect123/intro-to-qgis-workshop)), click the green **Clone or download** button, and choose **DOWNLOAD ZIP** from the options.
+2. Save this repository (.**zip**) to your Desktop.
+3. Right-click on the .zip file you just downloaded and select **Extract All**...
+4. Accept all defaults to extract the file.    
 
-
-1. Save this repository (.**zip**) to your Desktop.
-2. Right-click on the .zip file you just downloaded and select **Extract All**...
-3. Accept all defaults to extract the file.    
-
-Open the new **Intro-to-ArcGIS-Pro** folder. This is your project folder which contains the files:
-- Intro.**gdb**: the geodatabase with data for your map
-- Intro.**aprx**: the project file with all the maps
-- Intro.**tbx**: a toolbox with analytical tools for your project
-- Index: folder with background organizing information
+Open the new **intro-to-qgis-workshop-master** folder. This is your project folder which contains the items:
+- **data** subfolder: where your project data is stored
+- **img** subfolder: where instructional images are stored
+- **presentation** subfolder: where the presentation to this workshop is stored
+- **README.md**: a Markdown file containing these instructions
+- **vanTreeMap.qgz**: a QGIS project file containing the workshop's maps and data
 
 ### 0. Start QGIS and get the workshop data and instructions.
-Open QGIS 3.4.0 with GRASS. In your browser, download the .zip file of the repository found on this page: **github.com/ect123/intro-to-qgis-workshop**. SAVE the file. The .zip file will now be in your Downloads folder. Move this folder to a locations on your hard drive or flash drive and **extract**. We will use C:\Temp for this workshop.
+
 
 ### 1. Open the QGIS project file (.qgz)
-In the Browser Panel, click the C:\Temp folder to expand, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see a project file named **vanTreeMap**. Double-click that file to open the project.
+If you haven't already, Open QGIS 3.4.0 (with GRASS). In the Browser Panel, navigate to your Desktop, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see the **vanTreeMap** project file. Double-click that file to open the project.
 
 ### 2. View layer properties
 In the Layers Panel, right-click the title of the **vanHoods** layer, and select **Properties**. Observe some of the layer properties and close the window.
@@ -143,3 +141,11 @@ Close the print layout menu.
 
 ### 14. Save your project for later use.
 In the main menu, select **Project - Save**.
+
+
+
+
+![Download the .zip file][download]
+
+
+[download]: /img/download.png "Download the .zip file."   
