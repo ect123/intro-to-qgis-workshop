@@ -230,4 +230,16 @@ In the main menu, select **Project - Save**.
 
 
 [download]: /img/download.png "Download the .zip file."
-[gui]: /img/gui-1.png "QGIS3's User Interface"  
+[gui]: /img/gui-1.png "QGIS3's user interface"  
+[step2]: /img/step1.png "Layer properties"
+[step4]: /img/step4.png "Add the vanBigTrees layer"
+[step5]: /img/step5.png "Examine the tree attributes"
+[step6]: /img/step6.png "Select features using an expression"
+[step7]: /img/step7.png "Create a new layer from selected features"
+[step8]: /img/step8.png "Count points in polygon"
+[step9]: /img/step9.png "Symbolize your data"
+[step10]: /img/step10.png "Label your neighbourhoods"
+[step11]: /img/step11.png "Print layout"
+[step12]: /img/step12.png "Add map elements"
+[step13]: /img/step13.png "Export"
+[step14]: /img/step14.png "Save"
