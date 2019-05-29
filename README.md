@@ -61,19 +61,12 @@ QGIS can be downloaded from [qgis.org's Downloads page](https://qgis.org/en/site
 **Status Bar** - The status bar displays current information about the map canvas, and allows you to make adjustments in the map's scale and rotation.    
 **Map Canvas of Map View** - Call it either one. This is where the map is displayed as layers are loaded. You can zoom/pan the map canvas as well as select features and other operations.     
 
-
-
-
-
-
-
 ## HANDS ON
 
 Let's start the hands on portion of this workshop!
 
 #### Download Workshop Data
 To get started with this workshop, you'll need to first download the data and files from this GitHub repository. To do this,
-
 
 1. In the workshop's GitHub Repository ([github.com/ect123/intro-to-qgis-workshop](https://github.com/ect123/intro-to-qgis-workshop)), click the green **Clone or download** button, and choose **Download ZIP** from the options.   
 
@@ -90,6 +83,9 @@ Open the new **intro-to-qgis-workshop-master** folder. This is your project fold
 - **README.md**: a Markdown file containing these instructions
 - **vanTreeMap.qgz**: a QGIS project file containing the workshop's maps and data
 ---
+For this workshop, we will begin with a pre-made project that contains *clean* data that is organized into folders. The project file contains paths to data layers so that they load in the Map Canvas when the project starts. The project file also contains any style settings that have been applied to your data layers. It is important that you keep the paths to your data layers intact to avoid broken links, so it is best practice 
+
+Another real-world scenario is that you would begin your project by searching for and evaluating data that you need, which can be a time consuming (and potentially expensive!) step. It's also common to have to clean, transform, or otherwise process your data in order for it to work correctly in your GIS project. We are avoiding that step by design for this introductory workshop.
 
 ### 1. Open the QGIS project file (.qgz)
 If you haven't already, Open QGIS 3.4.0 (with GRASS). In the Browser Panel, navigate to your Desktop, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see the **vanTreeMap** project file. Double-click that file to open the project.
