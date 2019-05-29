@@ -83,7 +83,7 @@ Open the new **intro-to-qgis-workshop-master** folder. This is your project fold
 - **README.md**: a Markdown file containing these instructions
 - **vanTreeMap.qgz**: a QGIS project file containing the workshop's maps and data
 ---
-For this workshop, we will begin with a pre-made project that contains *clean* data that is organized into folders. The project file contains paths to data layers so that they load in the Map Canvas when the project starts. The project file also contains any style settings that have been applied to your data layers. It is important that you keep the paths to your data layers intact to avoid broken links, so it is best practice 
+For this workshop, we will begin with a pre-made project that contains *clean* data that is organized into folders. The project file contains paths to data layers so that they load in the Map Canvas when the project starts. The project file also contains any style settings that have been applied to your data layers. It is important that you keep the paths to your data layers intact to avoid broken links. The best practice is to keep your data organized in folders associated with your project so that they are logically arranged in folder systems from the very start of any project.
 
 Another real-world scenario is that you would begin your project by searching for and evaluating data that you need, which can be a time consuming (and potentially expensive!) step. It's also common to have to clean, transform, or otherwise process your data in order for it to work correctly in your GIS project. We are avoiding that step by design for this introductory workshop.
 
@@ -91,6 +91,7 @@ Another real-world scenario is that you would begin your project by searching fo
 If you haven't already, Open QGIS 3.4.0 (with GRASS). In the Browser Panel, navigate to your Desktop, and select your newly extracted folder called **intro-to qgis-workshop-master**. Inside you'll see the **vanTreeMap** project file. Double-click that file to open the project.
 
 ---
+Your new project displays 2 layers in your Layer Panel - which are 2/3 of the files in your **data** folder. Each one of these layers
 
 ### 2. View layer properties
 In the Layers Panel, right-click the title of the **vanHoods** layer, and select **Properties**. Observe some of the layer properties and close the window.
